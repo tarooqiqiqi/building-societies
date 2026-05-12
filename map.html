@@ -19,9 +19,9 @@ header{padding:10px 16px;border-bottom:1px solid var(--border);display:flex;alig
 header h1{font-family:'Playfair Display',serif;font-size:clamp(0.85rem,2.5vw,1.05rem);font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #header-right{display:flex;align-items:center;gap:8px;flex-shrink:0}
 #node-count{font-size:0.7rem;color:var(--muted);white-space:nowrap}
-#home-btn,#index-btn{font-size:0.75rem;font-weight:600;cursor:pointer;border:none;border-radius:5px;padding:5px 12px;font-family:inherit;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.12);transition:background 0.15s;text-decoration:none;display:inline-flex;align-items:center}
-#home-btn,#index-btn{background:var(--surface2);color:var(--text);border:1px solid var(--border)}
-#home-btn:hover,#index-btn:hover{background:var(--border)}
+#home-btn,#index-btn,#legend-btn{font-size:0.75rem;font-weight:600;cursor:pointer;border:none;border-radius:5px;padding:5px 12px;font-family:inherit;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.12);transition:background 0.15s;text-decoration:none;display:inline-flex;align-items:center}
+#home-btn,#index-btn,#legend-btn{background:var(--surface2);color:var(--text);border:1px solid var(--border)}
+#home-btn:hover,#index-btn:hover,#legend-btn:hover{background:var(--border)}
 #controls{padding:8px 16px;border-bottom:1px solid var(--border);display:flex;gap:8px;align-items:center;flex-wrap:wrap;flex-shrink:0;background:var(--surface)}
 .filter-label{font-size:0.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;flex-shrink:0}
 #group-filters{display:flex;gap:5px;flex-wrap:wrap;flex:1}
@@ -72,15 +72,25 @@ header h1{font-family:'Playfair Display',serif;font-size:clamp(0.85rem,2.5vw,1.0
 .view-btn{display:block;margin-top:12px;padding:8px 14px;border:1px solid var(--border);border-radius:4px;color:var(--muted);font-size:0.76rem;text-align:center;text-decoration:none;transition:all 0.15s;background:var(--surface2)}
 .view-btn:hover{border-color:#999;color:var(--text);background:var(--surface)}
 #panel-placeholder{color:var(--muted);font-size:0.82rem;line-height:1.8;padding-top:4px}
-#legend{position:absolute;bottom:12px;left:12px;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:9px 12px;font-size:0.7rem;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
-#legend h4{color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;font-size:0.62rem;margin-bottom:7px}
-@media(max-width:640px){#legend{display:none}}
 footer{background:var(--surface);border-top:1px solid var(--border);padding:10px 16px;font-size:0.68rem;color:var(--muted);line-height:1.6;flex-shrink:0;text-align:center}
 
 .chip[data-group="Cumberland"].active{background:#004C45}
 .chip[data-group="Darlington"].active{background:#AC145A}
 .chip[data-group="Earl Shilton"].active{background:#004990}
 .chip[data-group="Ecology"].active{background:#A8E101}
+
+#legend-overlay{position:fixed;inset:0;z-index:100;background:rgba(40,35,30,0.5);display:none;align-items:center;justify-content:center;padding:20px}
+#legend-overlay.open{display:flex}
+#legend-box{background:var(--surface);border:1px solid var(--border);border-radius:8px;max-width:420px;width:100%;padding:28px;position:relative;max-height:85vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.15)}
+#legend-box h2{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin-bottom:20px;color:var(--text)}
+#legend-box h3{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin:18px 0 10px}
+#legend-box h3:first-of-type{margin-top:0}
+.leg-row{display:flex;align-items:center;gap:12px;margin-bottom:9px;font-size:0.85rem;color:#4a4540;line-height:1.5}
+.leg-dot{width:12px;height:12px;flex-shrink:0}
+.leg-line{width:28px;height:0;flex-shrink:0}
+#legend-close{position:absolute;top:14px;right:16px;font-size:0.8rem;color:var(--muted);cursor:pointer;background:none;border:none;font-family:inherit;padding:4px 8px}
+#legend-close:hover{color:var(--text)}
+
 </style>
 </head>
 <body>
@@ -90,8 +100,30 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:10px
     <span id="node-count"></span>
     <a href="list.html" id="index-btn">Index</a>
     <a href="progress.html" id="home-btn">Progress</a>
+    <a id="legend-btn" style="cursor:pointer">Legend</a>
   </div>
 </header>
+<div id="legend-overlay">
+  <div id="legend-box">
+    <button id="legend-close">✕ Close</button>
+    <h2>How to read the map</h2>
+    <h3>Node shape — fate of the society</h3>
+    <div class="leg-row"><div class="leg-dot" style="background:#888;clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)"></div>Star — society still exists today</div>
+    <div class="leg-row"><div class="leg-dot" style="background:#aaa;border-radius:50%"></div>Circle — renamed into another society</div>
+    <div class="leg-row"><div class="leg-dot" style="background:#aaa;transform:rotate(45deg)"></div>Diamond — merged with another society</div>
+    <div class="leg-row"><div class="leg-dot" style="background:#aaa;border-radius:3px"></div>Rounded square — acquired by another society</div>
+    <div class="leg-row"><div class="leg-dot" style="background:#aaa;clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%)"></div>Hexagon — demutualised</div>
+    <div class="leg-row"><div class="leg-dot" style="background:#aaa;clip-path:polygon(20% 0%,80% 0%,100% 50%,80% 100%,20% 100%,0% 50%)"></div>Cut rectangle — partial transfer</div>
+    <h3>Edge colour — type of event</h3>
+    <div class="leg-row"><div class="leg-line" style="border-top:2.5px dashed #8899aa"></div>Renaming</div>
+    <div class="leg-row"><div class="leg-line" style="border-top:2.5px solid #5570b0"></div>Merger</div>
+    <div class="leg-row"><div class="leg-line" style="border-top:2.5px solid #c07038"></div>Acquisition</div>
+    <div class="leg-row"><div class="leg-line" style="border-top:2.5px solid #c0a030"></div>Demutualisation</div>
+    <div class="leg-row"><div class="leg-line" style="border-top:2.5px solid #7a50b0"></div>Partial transfer</div>
+    <h3>Note</h3>
+    <p style="font-size:0.82rem;line-height:1.8;color:#4a4540">Within building societies, acquisitions represent transfers of engagements — the specific legal mechanism by which one society absorbs another's membership and assets.</p>
+  </div>
+</div></div>
 <div id="controls">
   <span class="filter-label">Filter</span>
   <div id="group-filters">
@@ -117,21 +149,6 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:10px
       <div id="panel-content" style="display:none"></div>
     </div>
   </div>
-</div>
-<div id="legend">
-  <h4>Fate</h4>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:9px;height:9px;background:#888;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%)"></div>Ongoing</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:9px;height:9px;background:#aaa;border-radius:50%"></div>Renamed</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:9px;height:9px;background:#aaa;transform:rotate(45deg)"></div>Merged</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:9px;height:9px;background:#aaa;border-radius:3px"></div>Acquired</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:9px;height:9px;background:#aaa;clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%)"></div>Demutualised</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:9px;height:9px;background:#aaa;clip-path:polygon(20% 0%,80% 0%,100% 50%,80% 100%,20% 100%,0% 50%)"></div>Partial Transfer</div>
-  <h4 style="margin-top:9px">Edge</h4>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:22px;height:0;border-top:2px dashed #8899aa"></div>Renaming</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:22px;height:0;border-top:2px solid #5570b0"></div>Merger</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:22px;height:0;border-top:2px solid #c07038"></div>Acquisition</div>
-  <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;color:var(--muted)"><div style="width:22px;height:0;border-top:2px solid #c0a030"></div>Demutualisation</div>
-  <div style="display:flex;align-items:center;gap:7px;color:var(--muted)"><div style="width:22px;height:0;border-top:2px solid #7a50b0"></div>Partial Transfer</div>
 </div>
 <footer>
   &copy; Tariq Albastaki 2026. All rights reserved. This is an independent, non-commercial research project. Data is drawn from public sources including the Building Societies Association, the FCA Mutuals Public Register, and the British Newspaper Archive. Logos are used for identification purposes only and remain the property of their respective owners.
@@ -346,6 +363,11 @@ window.focusNode = function(id) {
 
 cy.on('tap', 'node', e => showPanel(e.target));
 cy.on('tap', e => { if (e.target === cy) clearPanel(); });
+
+const legendOverlay = document.getElementById('legend-overlay');
+document.getElementById('legend-btn').addEventListener('click', () => legendOverlay.classList.add('open'));
+document.getElementById('legend-close').addEventListener('click', () => legendOverlay.classList.remove('open'));
+legendOverlay.addEventListener('click', e => { if (e.target === legendOverlay) legendOverlay.classList.remove('open'); });
 </script>
 </body>
 </html>
