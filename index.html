@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Building Society History</title>
+<link rel="icon" type="image/svg+xml" href="/building-society-history-logo-no-frame.svg">
+<link rel="icon" type="image/png" href="/building-society-history-logo-no-frame.png">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -39,7 +41,12 @@ header{
   text-decoration:none;
   white-space:nowrap;
   margin-right:4px;
+  display:flex;
+  align-items:center;
+  gap:8px;
 }
+.header-logo{height:32px;width:32px;flex-shrink:0}
+.hero-logo{width:96px;height:96px;margin:0 auto 16px;display:block}
 .search-wrap{
   flex:1;
   max-width:380px;
@@ -252,7 +259,7 @@ footer{
 <body>
 
 <header>
-  <a href="index.html" class="site-title">Building Society History</a>
+  <a href="index.html" class="site-title"><img src="building-society-history-logo.svg" alt="" class="header-logo">Building Society History</a>
   <div class="search-wrap">
     <span class="search-icon">🔍</span>
     <input type="search" class="search-input" id="search"
@@ -267,6 +274,7 @@ footer{
 </header>
 
 <div class="hero">
+  <img src="building-society-history-logo.svg" alt="Building Society History logo" class="hero-logo">
   <h1>Building Society History</h1>
   <p>An independent research project tracing the lineage of every British building society — from Victorian mutual roots to the present day.</p>
 </div>

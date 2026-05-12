@@ -7,6 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dagre/0.8.5/dagre.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.min.js"></script>
+<link rel="icon" type="image/svg+xml" href="/building-society-history-logo-no-frame.svg">
+<link rel="icon" type="image/png" href="/building-society-history-logo-no-frame.png">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f0ece4;--surface:#e8e3da;--surface2:#ddd8ce;--border:#c8c0b0;--text:#2a2520;--muted:#7a7060}
@@ -17,9 +19,7 @@ header{padding:10px 16px;border-bottom:1px solid var(--border);display:flex;alig
 header h1{font-family:'Playfair Display',serif;font-size:clamp(0.85rem,2.5vw,1.05rem);font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #header-right{display:flex;align-items:center;gap:8px;flex-shrink:0}
 #node-count{font-size:0.7rem;color:var(--muted);white-space:nowrap}
-#home-btn,#about-btn,#index-btn{font-size:0.75rem;font-weight:600;cursor:pointer;border:none;border-radius:5px;padding:5px 12px;font-family:inherit;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.12);transition:background 0.15s;text-decoration:none;display:inline-flex;align-items:center}
-#about-btn{background:#5570b0;color:#fff}
-#about-btn:hover{background:#3d5090}
+#home-btn,#index-btn{font-size:0.75rem;font-weight:600;cursor:pointer;border:none;border-radius:5px;padding:5px 12px;font-family:inherit;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.12);transition:background 0.15s;text-decoration:none;display:inline-flex;align-items:center}
 #home-btn,#index-btn{background:var(--surface2);color:var(--text);border:1px solid var(--border)}
 #home-btn:hover,#index-btn:hover{background:var(--border)}
 #controls{padding:8px 16px;border-bottom:1px solid var(--border);display:flex;gap:8px;align-items:center;flex-wrap:wrap;flex-shrink:0;background:var(--surface)}
@@ -49,14 +49,6 @@ header h1{font-family:'Playfair Display',serif;font-size:clamp(0.85rem,2.5vw,1.0
   .filter-label{display:none}
   #search-bar{width:100px}
 }
-#about-overlay{position:absolute;inset:0;z-index:30;background:rgba(40,35,30,0.5);display:none;align-items:center;justify-content:center;padding:20px}
-#about-overlay.open{display:flex}
-#about-box{background:var(--surface);border:1px solid var(--border);border-radius:8px;max-width:520px;width:100%;padding:28px;position:relative;max-height:80vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.15)}
-#about-box h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;margin-bottom:16px;color:var(--text)}
-#about-box p{font-size:0.88rem;line-height:1.9;color:#4a4540;margin-bottom:12px}
-#about-box p:last-of-type{margin-bottom:20px}
-.about-close{position:absolute;top:14px;right:16px;font-size:0.8rem;color:var(--muted);cursor:pointer;background:none;border:none;font-family:inherit}
-.about-close:hover{color:var(--text)}
 .legend-section{border-top:1px solid var(--border);padding-top:16px;margin-top:4px}
 .legend-section h3{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:10px}
 .leg-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-size:0.82rem;color:#4a4540;line-height:1.5}
@@ -93,12 +85,11 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:10px
 </head>
 <body>
 <header>
-  <h1><a href="index.html" style="color:inherit;text-decoration:none">Building Society History</a></h1>
+  <h1><a href="index.html" style="color:inherit;text-decoration:none;display:flex;align-items:center;gap:8px;font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700"><img src="building-society-history-logo.svg" alt="" style="height:32px;width:32px;flex-shrink:0">Building Society History</a></h1>
   <div id="header-right">
     <span id="node-count"></span>
-    <a href="index.html" id="home-btn">Home</a>
     <a href="list.html" id="index-btn">Index</a>
-    <button id="about-btn">About</button>
+    <a href="progress.html" id="home-btn">Progress</a>
   </div>
 </header>
 <div id="controls">
@@ -124,34 +115,6 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:10px
     <div id="panel-scroll">
       <div id="panel-placeholder">Click any node to explore a building society.</div>
       <div id="panel-content" style="display:none"></div>
-    </div>
-  </div>
-</div>
-<div id="about-overlay">
-  <div id="about-box">
-    <button class="about-close" id="about-close">&#10005; Close</button>
-    <h2>UK Building Society History</h2>
-    <p>An interactive reference mapping the history of mergers, acquisitions, and renamings among UK building societies — from small Victorian benefit societies through to the major mutuals of today.</p>
-    <p>Each node represents a building society. Follow the arrows to trace how hundreds of local societies were gradually absorbed into the institutions that exist today. Click any node to see its details, or use the group filters to focus on a particular family of societies.</p>
-    <p>Data is drawn primarily from the Building Societies Association's alphabetical list of changes since 1937, cross-referenced with the FCA Mutuals Public Register and the British Newspaper Archive. This is an ongoing personal research project — coverage will grow over time.</p>
-    <p>Within building societies, acquisitions represent transfers of engagements — the specific legal mechanism by which one society absorbs another's membership and assets. See the <a href="progress.html" style="color:#5570b0;text-decoration:none">progress page</a> for more on what's covered and what's coming.</p>
-    <div class="legend-section">
-      <h3>How to read the diagram</h3>
-      <div class="leg-row"><div class="leg-dot" style="background:#888;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%)"></div>Star — society still exists today</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#aaa;border-radius:50%"></div>Circle — renamed into another society</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#aaa;transform:rotate(45deg)"></div>Diamond — merged with another society</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#aaa;border-radius:3px"></div>Rounded square — acquired by another society</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#aaa;clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%)"></div>Hexagon — demutualised</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#aaa;clip-path:polygon(20% 0%,80% 0%,100% 50%,80% 100%,20% 100%,0% 50%)"></div>Cut rectangle — partial transfer</div>
-      <div class="leg-row" style="margin-top:8px"><div class="leg-line" style="border-top:2px dashed #8899aa"></div>Dashed — renaming</div>
-      <div class="leg-row"><div class="leg-line" style="border-top:2px solid #5570b0"></div>Blue — merger</div>
-      <div class="leg-row"><div class="leg-line" style="border-top:2px solid #c07038"></div>Terracotta — acquisition</div>
-      <div class="leg-row"><div class="leg-line" style="border-top:2px solid #c0a030"></div>Gold — demutualisation</div>
-      <div class="leg-row"><div class="leg-line" style="border-top:2px solid #7a50b0"></div>Purple — partial transfer</div>
-      
-    </div>
-    <div class="about-contact">
-      Have a query, suggestion, or personal insight into a particular society? We'd love to hear from you at <a href="mailto:hello@buildingsocietyhistory.co.uk">hello@buildingsocietyhistory.co.uk</a>
     </div>
   </div>
 </div>
@@ -337,11 +300,6 @@ document.getElementById('search-bar').addEventListener('input', e => {
   }
 });
 
-document.getElementById('about-btn').addEventListener('click', () => document.getElementById('about-overlay').classList.add('open'));
-document.getElementById('about-close').addEventListener('click', () => document.getElementById('about-overlay').classList.remove('open'));
-document.getElementById('about-overlay').addEventListener('click', e => {
-  if (e.target === document.getElementById('about-overlay')) document.getElementById('about-overlay').classList.remove('open');
-});
 document.getElementById('panel-close').addEventListener('click', () => {
   document.getElementById('panel').classList.remove('open'); clearPanel();
 });
