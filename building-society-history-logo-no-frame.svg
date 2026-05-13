@@ -2,13 +2,13 @@
   <!-- Connection lines - transit map style (drawn first so circles appear on top) -->
   <!-- Lines from center to primary nodes -->
   <line x1="120" y1="120" x2="120" y2="60" stroke="#2C1810" stroke-width="2"/>
-  <line x1="120" y1="120" x2="165" y2="85" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="162" y2="78" stroke="#2C1810" stroke-width="2"/>
   <line x1="120" y1="120" x2="180" y2="120" stroke="#2C1810" stroke-width="2"/>
-  <line x1="120" y1="120" x2="165" y2="155" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="162" y2="162" stroke="#2C1810" stroke-width="2"/>
   <line x1="120" y1="120" x2="120" y2="180" stroke="#2C1810" stroke-width="2"/>
-  <line x1="120" y1="120" x2="75" y2="155" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="78" y2="162" stroke="#2C1810" stroke-width="2"/>
   <line x1="120" y1="120" x2="60" y2="120" stroke="#2C1810" stroke-width="2"/>
-  <line x1="120" y1="120" x2="75" y2="85" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="78" y2="78" stroke="#2C1810" stroke-width="2"/>
 
   <!-- Lines from primary to secondary nodes (every other branch) -->
   <line x1="120" y1="60" x2="100" y2="50" stroke="#8B6F47" stroke-width="1.5"/>
@@ -26,13 +26,13 @@
 
   <!-- Primary nodes - 8 nodes arranged in a radial pattern -->
   <circle cx="120" cy="60" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
-  <circle cx="165" cy="85" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="162" cy="78" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
   <circle cx="180" cy="120" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
-  <circle cx="165" cy="155" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="162" cy="162" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
   <circle cx="120" cy="180" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
-  <circle cx="75" cy="155" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="78" cy="162" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
   <circle cx="60" cy="120" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
-  <circle cx="75" cy="85" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="78" cy="78" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
 
   <!-- Secondary nodes - brown on alternating branches -->
   <circle cx="100" cy="50" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
