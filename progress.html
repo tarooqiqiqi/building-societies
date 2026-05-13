@@ -3,27 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Progress – UK Building Society History</title>
+<title>Progress – Building Society History</title>
+<link rel="icon" type="image/svg+xml" href="/building-society-history-logo-no-frame.svg">
+<link rel="icon" type="image/png" href="/building-society-history-logo-no-frame.png">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#f0ece4;--surface:#e8e3da;--surface2:#ddd8ce;--border:#c8c0b0;--text:#2a2520;--muted:#7a7060}
+:root{--bg:#f0ece4;--surface:#e8e3da;--surface2:#ddd8ce;--border:#c8c0b0;--text:#2a2520;--muted:#7a7060;--accent:#5570b0}
 body{background:var(--bg);color:var(--text);font-family:'Source Sans 3',sans-serif;min-height:100vh}
-header{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 20px;position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between}
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 20px;position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:12px}
 header a{color:var(--muted);text-decoration:none;font-size:0.85rem}
 header a:hover{color:var(--text)}
 .page-hero{background:var(--surface);border-bottom:1px solid var(--border);padding:28px 20px 24px}
-.page-hero-inner{max-width:700px;margin:0 auto}
+.page-hero-inner{max-width:960px;margin:0 auto}
 .page-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.4rem,4vw,1.9rem);font-weight:700;margin-bottom:8px}
 .page-hero p{font-size:0.88rem;color:var(--muted);line-height:1.7}
 .stat-row{display:flex;gap:28px;margin-top:18px;flex-wrap:wrap}
 .stat{display:flex;flex-direction:column;gap:2px}
 .stat-num{font-size:1.8rem;font-weight:700;font-family:'Playfair Display',serif;color:var(--text)}
 .stat-label{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted)}
-.container{max-width:700px;margin:0 auto;padding:28px 20px 60px}
+.container{max-width:960px;margin:0 auto;padding:28px 40px 60px}
 .section{margin-bottom:36px}
 .section h2{font-family:'Playfair Display',serif;font-size:1rem;font-weight:400;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
 .body-text{line-height:1.9;color:#4a4540;font-size:0.9rem;margin-bottom:1rem}
 .body-text:last-child{margin-bottom:0}
 footer{background:var(--surface);border-top:1px solid var(--border);padding:20px;text-align:center;font-size:0.75rem;color:var(--muted);line-height:1.8}
@@ -31,8 +33,11 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
 </head>
 <body>
 <header>
-  <a href="index.html">← Home</a>
-  <a href="list.html">Society index →</a>
+  <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--text);font-family:'Playfair Display',serif;font-size:1rem;font-weight:700"><img src="building-society-history-logo.svg" alt="" style="height:32px;width:32px;flex-shrink:0">Building Society History</a>
+  <nav style="display:flex;gap:6px">
+    <a href="map.html" style="padding:6px 14px;border:1px solid var(--border);border-radius:16px;background:var(--accent);color:#fff;font-family:inherit;font-size:0.78rem;text-decoration:none;white-space:nowrap">Map</a>
+    <a href="list.html" style="padding:6px 14px;border:1px solid var(--border);border-radius:16px;background:transparent;color:var(--muted);font-family:inherit;font-size:0.78rem;text-decoration:none;white-space:nowrap">Index</a>
+  </nav>
 </header>
 <div class="page-hero"><div class="page-hero-inner">
   <h1>Project Progress</h1>
@@ -41,40 +46,40 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
     <div class="stat"><span class="stat-num">182</span><span class="stat-label">Societies in diagram</span></div>
     <div class="stat"><span class="stat-num">170</span><span class="stat-label">Histories written</span></div>
     <div class="stat"><span class="stat-num">6</span><span class="stat-label">Groups complete</span></div>
-    <div class="stat"><span class="stat-num">4</span><span class="stat-label">Groups in progress</span></div>
-    <div class="stat"><span class="stat-num">35</span><span class="stat-label">Groups planned</span></div>
+    <div class="stat"><span class="stat-num">4</span><span class="stat-label">In progress</span></div>
+    <div class="stat"><span class="stat-num">35</span><span class="stat-label">Planned</span></div>
   </div>
 </div></div>
 <div class="container">
   <div class="section">
     <h2>Complete</h2>
     <div class="grid"><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #bb1432;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#bb1432">Bath</span>
         <span style="font-size:0.72rem;color:var(--muted)">3/3</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#bb1432;width:100%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #af5d29;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#af5d29">Beverley</span>
         <span style="font-size:0.72rem;color:var(--muted)">2/2</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#af5d29;width:100%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #572885;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#572885">Buckinghamshire</span>
         <span style="font-size:0.72rem;color:var(--muted)">2/2</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#572885;width:100%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #c33a83;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#c33a83">Cambridge</span>
         <span style="font-size:0.72rem;color:var(--muted)">2/2</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#c33a83;width:100%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #622473;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#622473">Chorley</span>
         <span style="font-size:0.72rem;color:var(--muted)">1/1</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#622473;width:100%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #196ef7;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#196ef7">Coventry</span>
         <span style="font-size:0.72rem;color:var(--muted)">160/160</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#196ef7;width:100%;height:5px;border-radius:4px"></div></div>
@@ -83,22 +88,22 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
   <div class="section">
     <h2>In Progress</h2>
     <div class="grid"><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #004C45;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#004C45">Cumberland</span>
         <span style="font-size:0.72rem;color:var(--muted)">0/5</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#004C45;width:0%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #AC145A;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#AC145A">Darlington</span>
         <span style="font-size:0.72rem;color:var(--muted)">0/4</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#AC145A;width:0%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #004990;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#004990">Earl Shilton</span>
         <span style="font-size:0.72rem;color:var(--muted)">0/2</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#004990;width:0%;height:5px;border-radius:4px"></div></div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #A8E101;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#A8E101">Ecology</span>
         <span style="font-size:0.72rem;color:var(--muted)">0/1</span>
       </div><div style="background:var(--border);border-radius:4px;height:5px;margin-top:6px"><div style="background:#A8E101;width:0%;height:5px;border-radius:4px"></div></div>
@@ -107,186 +112,183 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
   <div class="section">
     <h2>Planned — Building Societies</h2>
     <div class="grid"><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #7FBCAA;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#7FBCAA">Family</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #FC9BC1;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#FC9BC1">Furness</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #00539F;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#00539F">Hanley Economic</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #1E7560;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#1E7560">Harpenden</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #F9AF3C;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#F9AF3C">Hinckley & Rugby</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #182745;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#182745">Leeds</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #3AAA35;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#3AAA35">Leek</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #3AAA35;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#3AAA35">Loughborough</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #73B943;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#73B943">Mansfield</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #CE0060;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#CE0060">Market Harborough</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #E6007E;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#E6007E">Marsden</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #4BB8A9;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#4BB8A9">Melton</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #E25F00;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#E25F00">Monmouthshire</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #F9383D;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#F9383D">Nationwide</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #003865;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#003865">Newbury</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #165788;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#165788">Newcastle (incl. Manchester)</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #00F295;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#00F295">Nottingham</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #CE122D;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#CE122D">Penrith</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #8B0556;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#8B0556">Principality</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #E03228;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#E03228">Progressive</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #461963;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#461963">Saffron</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #2057B2;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#2057B2">Scottish</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #0072C5;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#0072C5">Skipton</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #EB600A;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#EB600A">Stafford</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #71A8A0;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#71A8A0">Suffolk</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #007E36;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#007E36">Swansea</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #EA6669;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#EA6669">Teachers</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #2FB457;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#2FB457">Tipton & Coseley</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #009FA0;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#009FA0">Vernon</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #994DFB;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#994DFB">West Bromwich</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #068844;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#068844">Yorkshire</span>
         
       </div>
     </div></div>
   </div>
-  <div class="section">
-    <h2>Planned — Demutualised Institutions</h2>
-    <div class="grid"><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #EC0000;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+  <div class="section"><h2>Planned — Demutualised Institutions</h2><div class="grid"><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #EC0000;border-radius:6px;padding:10px 14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#EC0000">Santander - Abbey National, Alliance & Leicester, Bradford & Bingley</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #11B67A;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#11B67A">Lloyds - Halifax, Cheltenham & Gloucester</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #00AEEF;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#00AEEF">Barclays - Woolwich</span>
         
       </div>
     </div><div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #50213F;border-radius:6px;padding:10px 14px">
-      <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
         <span style="font-weight:600;font-size:0.85rem;color:#50213F">OneSavings Bank (Kent Reliance)</span>
         
       </div>
-    </div></div>
-  </div>
+    </div></div></div>
   <div class="section">
     <h2>Looking ahead</h2>
     <p class="body-text">Beyond completing the diagram, there are a number of longer-term ambitions for this project.</p>
