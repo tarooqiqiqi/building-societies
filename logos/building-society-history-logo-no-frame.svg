@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Connection lines - transit map style (drawn first so circles appear on top) -->
+  <!-- Lines from center to primary nodes -->
+  <line x1="120" y1="120" x2="120" y2="60" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="165" y2="85" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="180" y2="120" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="165" y2="155" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="120" y2="180" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="75" y2="155" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="60" y2="120" stroke="#2C1810" stroke-width="2"/>
+  <line x1="120" y1="120" x2="75" y2="85" stroke="#2C1810" stroke-width="2"/>
+
+  <!-- Lines from primary to secondary nodes (every other branch) -->
+  <line x1="120" y1="60" x2="100" y2="50" stroke="#8B6F47" stroke-width="1.5"/>
+  <line x1="120" y1="60" x2="140" y2="50" stroke="#8B6F47" stroke-width="1.5"/>
+  <line x1="180" y1="120" x2="190" y2="100" stroke="#8B6F47" stroke-width="1.5"/>
+  <line x1="180" y1="120" x2="190" y2="140" stroke="#8B6F47" stroke-width="1.5"/>
+  <line x1="120" y1="180" x2="100" y2="190" stroke="#8B6F47" stroke-width="1.5"/>
+  <line x1="120" y1="180" x2="140" y2="190" stroke="#8B6F47" stroke-width="1.5"/>
+  <line x1="60" y1="120" x2="50" y2="100" stroke="#8B6F47" stroke-width="1.5"/>
+  <line x1="60" y1="120" x2="50" y2="140" stroke="#8B6F47" stroke-width="1.5"/>
+
+  <!-- Network diagram nodes - representing interconnected building societies -->
+  <!-- Central hub node -->
+  <circle cx="120" cy="120" r="8" fill="#B8860B" stroke="#2C1810" stroke-width="2"/>
+
+  <!-- Primary nodes - 8 nodes arranged in a radial pattern -->
+  <circle cx="120" cy="60" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="165" cy="85" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="180" cy="120" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="165" cy="155" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="120" cy="180" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="75" cy="155" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="60" cy="120" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+  <circle cx="75" cy="85" r="6" fill="#D4AF37" stroke="#2C1810" stroke-width="1.5"/>
+
+  <!-- Secondary nodes - brown on alternating branches -->
+  <circle cx="100" cy="50" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+  <circle cx="140" cy="50" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+  <circle cx="190" cy="100" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+  <circle cx="190" cy="140" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+  <circle cx="140" cy="190" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+  <circle cx="100" cy="190" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+  <circle cx="50" cy="140" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+  <circle cx="50" cy="100" r="4" fill="#8B6F47" stroke="#2C1810" stroke-width="1"/>
+</svg>
