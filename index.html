@@ -6,7 +6,6 @@
 <title>Building Society History</title>
 <link rel="icon" type="image/svg+xml" href="/building-society-history-logo-no-frame.svg">
 <link rel="icon" type="image/png" href="/building-society-history-logo-no-frame.png">
-<script defer src="https://cloud.umami.is/script.js" data-website-id="2d17cdbd-3fb5-4b8c-8d61-4bcbf6144876"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -64,6 +63,11 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:24px
     <img src="building-society-history-logo.svg" alt="" class="header-logo">
     Building Society History
   </a>
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="search" class="search-input" id="search" placeholder="Search all societies…" autocomplete="off">
+    <div class="search-results" id="search-results"></div>
+  </div>
   <nav class="nav-links">
     <a href="map.html" class="nav-btn primary">Map</a>
     <a href="list.html" class="nav-btn">Index</a>
@@ -76,11 +80,6 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:24px
   <p>An independent research project tracing the lineage of every British building society — from Victorian mutual roots to the present day.</p>
 </div>
 <div class="section">
-  <div class="search-wrap" style="max-width:480px;margin:0 auto 28px">
-    <span class="search-icon">🔍</span>
-    <input type="search" class="search-input" id="search" placeholder="Search all societies…" autocomplete="off">
-    <div class="search-results" id="search-results"></div>
-  </div>
   <h2 class="section-heading">Existing building societies</h2>
   <div class="cards-grid"><a href="societies/bath-investment.html" class="society-card" style="--group-color:#bb1432"><div class="card-logo-wrap"><img src="logos/bath-investment-logo.png" alt="Bath Investment & Building Society logo" class="card-logo"></div><span class="card-name">Bath Investment & Building Society</span></a>
 <a href="societies/beverley.html" class="society-card" style="--group-color:#af5d29"><div class="card-logo-wrap"><img src="logos/beverley.png" alt="Beverley Building Society logo" class="card-logo"></div><span class="card-name">Beverley Building Society</span></a>
