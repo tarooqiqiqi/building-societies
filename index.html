@@ -12,30 +12,37 @@
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#f0ece4;--surface:#e8e3da;--surface2:#ddd8ce;--border:#c8c0b0;--text:#2a2520;--muted:#7a7060;--accent:#5570b0}
 body{background:var(--bg);color:var(--text);font-family:'Source Sans 3',sans-serif;min-height:100vh}
-header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px;height:56px;display:flex;align-items:center;gap:16px;position:sticky;top:0;z-index:100}
-.site-title{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:var(--text);text-decoration:none;white-space:nowrap;margin-right:4px;display:flex;align-items:center;gap:8px}
-.header-logo{height:32px;width:32px;flex-shrink:0}
-.search-wrap{flex:1;max-width:380px;position:relative}
-.search-input{width:100%;padding:7px 12px 7px 34px;border:1px solid var(--border);border-radius:20px;background:var(--bg);color:var(--text);font-family:inherit;font-size:0.82rem;outline:none;transition:border-color 0.15s,box-shadow 0.15s}
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.site-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:8px}
+.header-logo{height:28px;width:28px;flex-shrink:0}
+.hamburger{display:none;flex-direction:column;gap:4px;cursor:pointer;padding:4px;border:none;background:none}
+.hamburger span{display:block;width:20px;height:2px;background:var(--text);border-radius:2px;transition:all 0.2s}
+.mobile-nav{display:none;position:absolute;top:52px;right:0;left:0;background:var(--surface);border-bottom:1px solid var(--border);padding:12px 24px;flex-direction:column;gap:8px;z-index:99}
+.mobile-nav.open{display:flex}
+.mobile-nav a{padding:8px 0;color:var(--text);text-decoration:none;font-size:0.88rem;border-bottom:1px solid var(--border)}
+.mobile-nav a:last-child{border-bottom:none}
+.search-wrap{position:relative;width:100%}
+.search-input{width:100%;padding:10px 16px 10px 38px;border:1px solid var(--border);border-radius:28px;background:var(--bg);color:var(--text);font-family:inherit;font-size:0.88rem;outline:none;transition:border-color 0.15s,box-shadow 0.15s}
 .search-input:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(85,112,176,0.15)}
-.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none;font-size:0.85rem}
+.search-icon{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none;font-size:0.9rem}
 .search-results{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--surface);border:1px solid var(--border);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.12);max-height:320px;overflow-y:auto;display:none;z-index:200}
 .search-results.open{display:block}
 .search-result-item{display:block;padding:9px 14px;text-decoration:none;color:var(--text);font-size:0.84rem;border-bottom:1px solid var(--border);transition:background 0.1s}
 .search-result-item:last-child{border-bottom:none}
 .search-result-item:hover{background:var(--surface2)}
 .search-no-results{padding:12px 14px;color:var(--muted);font-size:0.84rem;font-style:italic}
-.nav-links{display:flex;gap:6px;margin-left:auto}
-.nav-btn{padding:6px 14px;border:1px solid var(--border);border-radius:16px;background:transparent;color:var(--muted);font-family:inherit;font-size:0.78rem;text-decoration:none;white-space:nowrap;transition:all 0.15s}
-.nav-btn:hover{background:var(--surface2);color:var(--text)}
-.nav-btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
-.nav-btn.primary:hover{background:#4460a0;border-color:#4460a0}
-.hero{padding:56px 24px 48px;max-width:680px;margin:0 auto;text-align:center}
-.hero-logo{width:96px;height:96px;margin:0 auto 16px;display:block}
-.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3rem);font-weight:700;line-height:1.15;margin-bottom:16px;color:var(--text)}
-.hero-subtitle{font-size:0.95rem; text-transform:uppercase; letter-spacing:0.14em; color:var(--muted); margin-bottom:18px; font-weight:600;}
-.hero p{font-size:1rem;color:var(--muted);line-height:1.8;max-width:520px;margin:0 auto}
-.section{max-width:920px;margin:0 auto;padding:0 24px 64px}
+.hero-outer{display:grid;grid-template-columns:1fr auto 1fr;gap:32px;align-items:center;padding:52px 48px 44px;max-width:1100px;margin:0 auto}
+.hero-nav-col{display:flex;flex-direction:column;gap:12px}
+.hero-nav-col.right{align-items:flex-start}
+.hero-nav-col.left{align-items:flex-end}
+.hero-nav-pill{padding:10px 22px;border:1px solid var(--border);border-radius:20px;background:var(--surface);color:var(--text);font-family:'Playfair Display',serif;font-size:0.88rem;font-weight:600;text-decoration:none;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,0.1);transition:background 0.15s,box-shadow 0.15s;text-align:center;min-width:110px}
+.hero-nav-pill:hover{background:var(--surface2);box-shadow:0 2px 8px rgba(0,0,0,0.13)}
+.hero-centre{text-align:center;display:flex;flex-direction:column;align-items:center}
+.hero-logo{width:88px;height:88px;margin:0 auto 14px;display:block}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;line-height:1.15;margin-bottom:8px;color:var(--text)}
+.hero-subtitle{font-size:0.82rem;text-transform:uppercase;letter-spacing:0.14em;color:var(--muted);margin-bottom:16px;font-weight:600}
+.hero p{font-size:0.92rem;color:var(--muted);line-height:1.8;max-width:420px;margin:0 auto 24px}
+.section{max-width:1100px;margin:0 auto;padding:0 48px 64px}
 .section-heading{font-family:'Playfair Display',serif;font-size:1rem;font-weight:400;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:24px;padding-bottom:10px;border-bottom:1px solid var(--border)}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:16px}
 .society-card{display:flex;flex-direction:column;align-items:center;gap:10px;padding:20px 14px 16px;background:var(--surface);border:1px solid var(--border);border-top:3px solid var(--group-color,var(--border));border-radius:10px;text-decoration:none;color:var(--text);position:relative;transition:transform 0.15s,box-shadow 0.15s}
@@ -47,14 +54,11 @@ header{background:var(--surface);border-bottom:1px solid var(--border);padding:0
 .badge{position:absolute;top:9px;right:9px;font-size:0.57rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:2px 6px;border-radius:8px}
 .badge-wip{background:#f5e8c0;color:#7a6020;border:1px solid #e0c870}
 .badge-planned{background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
-footer{background:var(--surface);border-top:1px solid var(--border);padding:24px;text-align:center;font-size:0.75rem;color:var(--muted);line-height:1.9}
-@media(max-width:600px){
-  header{gap:8px;padding:0 14px}
-  .site-title{font-size:0.88rem}
-  .nav-links{gap:4px}
-  .nav-btn{padding:5px 10px;font-size:0.72rem}
-  .cards-grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px}
-  .hero{padding:36px 16px 32px}
+footer{background:var(--surface);border-top:1px solid var(--border);padding:20px 24px;text-align:center;font-size:0.73rem;color:var(--muted);line-height:1.8}
+@media(max-width:700px){
+  .hero-outer{grid-template-columns:1fr;gap:0;padding:32px 20px 28px}
+  .hero-nav-col{display:none}
+  .hamburger{display:flex}
   .section{padding:0 16px 48px}
 }
 </style>
@@ -65,25 +69,38 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:24px
     <img src="building-society-history-logo.svg" alt="" class="header-logo">
     Building Society History
   </a>
-  <nav class="nav-links">
-    <a href="map.html" class="nav-btn primary">Map</a>
-    <a href="list.html" class="nav-btn">Index</a>
-    <a href="progress.html" class="nav-btn">Progress</a>
-    <a href="about.html" class="nav-btn">About</a>
-  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="map.html">Map</a>
+    <a href="list.html">Index</a>
+    <a href="progress.html">Progress</a>
+    <a href="about.html">About</a>
+  </div>
 </header>
-<div class="hero">
-  <img src="building-society-history-logo.svg" alt="Building Society History logo" class="hero-logo">
-  <h1>Building Society History</h1>
-      <div class="hero-subtitle">A British Mutual Finance Project</div>
-  <p>An independent archive tracing the history and mergers of Britain’s building societies.</p>
+<div class="hero-outer">
+  <div class="hero-nav-col left">
+    <a href="map.html" class="hero-nav-pill">Map</a>
+    <a href="progress.html" class="hero-nav-pill">Progress</a>
+  </div>
+  <div class="hero-centre hero">
+    <img src="building-society-history-logo.svg" alt="Building Society History logo" class="hero-logo">
+    <h1>Building Society History</h1>
+    <div class="hero-subtitle">A British Mutual Finance Project</div>
+    <p>An independent archive tracing the history and mergers of Britain's building societies.</p>
+    <div class="search-wrap" style="max-width:420px;margin:0 auto">
+      <span class="search-icon">🔍</span>
+      <input type="search" class="search-input" id="search" placeholder="Search all societies…" autocomplete="off">
+      <div class="search-results" id="search-results"></div>
+    </div>
+  </div>
+  <div class="hero-nav-col right">
+    <a href="list.html" class="hero-nav-pill">Index</a>
+    <a href="about.html" class="hero-nav-pill">About</a>
+  </div>
 </div>
 <div class="section">
-  <div class="search-wrap" style="max-width:480px;margin:0 auto 28px">
-    <span class="search-icon">🔍</span>
-    <input type="search" class="search-input" id="search" placeholder="Search all societies…" autocomplete="off">
-    <div class="search-results" id="search-results"></div>
-  </div>
   <h2 class="section-heading">Existing building societies</h2>
   <div class="cards-grid"><a href="societies/bath-investment.html" class="society-card" style="--group-color:#bb1432"><div class="card-logo-wrap"><img src="logos/bath-investment-logo.png" alt="Bath Investment & Building Society logo" class="card-logo"></div><span class="card-name">Bath Investment & Building Society</span></a>
 <a href="societies/beverley.html" class="society-card" style="--group-color:#af5d29"><div class="card-logo-wrap"><img src="logos/beverley.png" alt="Beverley Building Society logo" class="card-logo"></div><span class="card-name">Beverley Building Society</span></a>
@@ -103,7 +120,7 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:24px
 <a href="javascript:void(0)" onclick="showWipModal(event)" class="society-card" style="--group-color:#182745;opacity:0.75"><span class="badge badge-planned">Planned</span><div class="card-logo-wrap"><img src="logos/leeds.gif" alt="Leeds Building Society logo" class="card-logo"></div><span class="card-name">Leeds Building Society</span></a></div>
 </div>
 <footer>
-  <p>© Tariq Albastaki 2026. Building Society History is an independent archival project documenting the history and evolution of British building societies and mutual financial institutions. Research draws upon public sources including the Building Societies Association, the FCA Mutuals Public Register, the British Newspaper Archive, local historical records, and individual society publications. Logos are used for identification and historical reference purposes only and remain the property of their respective owners. This project is maintained using GitHub Pages and a custom static site architecture.</p>
+  <p>© Tariq Albastaki 2026. Building Society History is an independent archival project documenting the history and evolution of British building societies and mutual financial institutions. Research draws upon public sources including the Building Societies Association, the FCA Mutuals Public Register, the British Newspaper Archive, local historical records, and individual society publications. Logos are used for identification and historical reference purposes only and remain the property of their respective owners.</p>
 </footer>
 <script>
 const SOCIETIES = [{"id": "acme", "name": "Acme Building Society"}, {"id": "advance", "name": "Advance Building Society"}, {"id": "aid-to-thrift", "name": "Aid To Thrift Building Society"}, {"id": "alfreton-district", "name": "Alfreton & District Permanent Benefit Building Society"}, {"id": "alfreton", "name": "Alfreton Building Society"}, {"id": "alliance-perpetual-benefit", "name": "Alliance Perpetual Benefit Building Society"}, {"id": "alliance-perpetual", "name": "Alliance Perpetual Building Society"}, {"id": "ashford-permanent-benefit", "name": "Ashford Permanent Benefit Building Society"}, {"id": "aylesbury-permanent-benefit", "name": "Aylesbury Permanent Benefit Building Society"}, {"id": "bath-county", "name": "Bath & County Building Society"}, {"id": "bath-county-conservative-benefit", "name": "Bath & County Conservative Benefit Building Society"}, {"id": "bath-investment", "name": "Bath Investment & Building Society"}, {"id": "bath-liberal", "name": "Bath Liberal Building Society"}, {"id": "beverley", "name": "Beverley Building Society"}, {"id": "beverley-permanent-benefit", "name": "Beverley Permanent Benefit Building Society"}, {"id": "blackheath-district-permanent-benefit", "name": "Blackheath & District Benefit Building Society"}, {"id": "blackheath", "name": "Blackheath Building Society"}, {"id": "borough-marylebone", "name": "Borough of Marylebone Building Society"}, {"id": "borough-watford-district-mutual", "name": "Borough of Watford & District Mutual Building Society"}, {"id": "brighton-district", "name": "Brighton & District Building Society"}, {"id": "brighton-hove-preston", "name": "Brighton, Hove & Preston Building Society"}, {"id": "bristol-west", "name": "Bristol & West Building Society"}, {"id": "bristol-west-plc", "name": "Bristol & West plc"}, {"id": "bristol-economic", "name": "Bristol Economic Building Society"}, {"id": "bristol-west-england-south-wales", "name": "Bristol, West of England and South Wales Building Society"}, {"id": "britannia-1946", "name": "Britannia Building Society (1946-1955)"}, {"id": "britannia", "name": "Britannia Building Society (1975-2009)"}, {"id": "british-workman-general-benefit", "name": "British Workman & General Benefit Building Society"}, {"id": "buckinghamshire", "name": "Buckinghamshire Building Society"}, {"id": "caledonian", "name": "Caledonian Building Society"}, {"id": "calne-district-permanent-benefit", "name": "Calne & District Permanent Benefit Building Society"}, {"id": "cambridge", "name": "Cambridge Building Society"}, {"id": "cambridgeshire-permanent-benefit", "name": "Cambridgeshire Permanent Benefit Building Society"}, {"id": "chalfont-district-permanent", "name": "Chalfont & District Permanent Building Society"}, {"id": "chelmsford-essex", "name": "Chelmsford & Essex Building Society"}, {"id": "cheshunt", "name": "Cheshunt Building Society"}, {"id": "cheshunt-permanent-benefit", "name": "Cheshunt Permanent Benefit Building Society"}, {"id": "chesterfield", "name": "Chesterfield Benefit Building Society"}, {"id": "chorley-district", "name": "Chorley & District Building Society"}, {"id": "circle-permanent", "name": "Circle Permanent Building Society"}, {"id": "city-metropolitan", "name": "City & Metropolitan Building Society"}, {"id": "city-cardiff-permanent", "name": "City of Cardiff Permanent Building Society"}, {"id": "clydach-permanent-benefit", "name": "Clydach Permanent Benefit Building Society"}, {"id": "co-operative-bank", "name": "Co-operative Bank (The)"}, {"id": "colne", "name": "Colne Building Society"}, {"id": "congleton-equitable-benefit", "name": "Congleton Equitable Benefit Building Society"}, {"id": "consett-reliance", "name": "Consett Reliance Building Society"}, {"id": "county-southampton-provident-permanent", "name": "County of Southampton Provident Permanent Building Society"}, {"id": "coventry", "name": "Coventry Building Society"}, {"id": "coventry-economic", "name": "Coventry Economic Building Society"}, {"id": "coventry-mutual", "name": "Coventry Mutual Building Society"}, {"id": "coventry-mutual-permanent", "name": "Coventry Mutual Permanent Building Society"}, {"id": "coventry-permanent-economic", "name": "Coventry Permanent Economic Building Society"}, {"id": "coventry-provident-1872", "name": "Coventry Provident Building Society (1872-1921)"}, {"id": "coventry-provident-1962", "name": "Coventry Provident Building Society (1962-1964)"}, {"id": "coventry-provident-1970", "name": "Coventry Provident Building Society (1970-1983)"}, {"id": "coventry-provident-mutual", "name": "Coventry Provident Mutual Building Society"}, {"id": "coventry-provident-permanent", "name": "Coventry Provident Permanent Building Society"}, {"id": "crewe-permanent-benefit", "name": "Crewe Permanent Benefit Building Society"}, {"id": "cumberland", "name": "Cumberland Building Society"}, {"id": "cumberland-co-operative-benefit", "name": "Cumberland Co-operative Benefit\u00a0Building Society"}, {"id": "cumbria", "name": "Cumbria Building Society"}, {"id": "darlington", "name": "Darlington Building Society"}, {"id": "darlington-equitable", "name": "Darlington Equitable Building Society"}, {"id": "denton", "name": "Denton Building Society"}, {"id": "dorchester-county-dorset-economic-benefit", "name": "Dorchester & County of Dorset Economic Benefit Building Society"}, {"id": "dorchester", "name": "Dorchester Building Society"}, {"id": "driffield-east-riding-benefit", "name": "Driffield & East Riding Benefit Building Society"}, {"id": "driffield", "name": "Driffield Building Society"}, {"id": "durham-yorkshire", "name": "Durham & Yorkshire Building Society"}, {"id": "earl-shilton", "name": "Earl Shilton Building Society"}, {"id": "earl-shilton-permanent-benefit", "name": "Earl Shilton Permanent Benefit Building & Land Society"}, {"id": "east-ham-district-permanent", "name": "East Ham & District Permanent Building Society"}, {"id": "eastern-counties", "name": "Eastern Counties Building Society"}, {"id": "eastern-counties-permanent-benefit", "name": "Eastern Counties Permanent Benefit Building Society"}, {"id": "ecology", "name": "Ecology Building Society"}, {"id": "family", "name": "Family Building Society"}, {"id": "fareham-district-mutual", "name": "Fareham & District Mutual Building Society"}, {"id": "farmers-general-investment", "name": "Farmers & General Investment Building Society"}, {"id": "farnham-benefit", "name": "Farnham Benefit Building Society"}, {"id": "fenton-mutual-permanent", "name": "Fenton Mutual Permanent Benefit Building Society"}, {"id": "fourth-bristol-permanent", "name": "Fourth Bristol Permanent Building Society"}, {"id": "fourth-post-office", "name": "Fourth Post Office Building Society"}, {"id": "fourth-post-office-mutual", "name": "Fourth Post Office Mutual Building Society"}, {"id": "frome-selwood", "name": "Frome Selwood Permanent Building Society"}, {"id": "furness-south-cumberland", "name": "Furness & South Cumberland Permanent Benefit Building Society"}, {"id": "furness", "name": "Furness Building Society"}, {"id": "general-thrift-permanent", "name": "General Thrift Permanent Building Society"}, {"id": "glantawe-permanent", "name": "Glantawe Permanent Building Society"}, {"id": "globe", "name": "Globe Building Society"}, {"id": "globe-permanent-benefit", "name": "Globe Permanent Benefit Building Society"}, {"id": "glossop-perpetual", "name": "Glossop Perpetual Building Society"}, {"id": "golders-green-permanent", "name": "Golders Green Permanent Building Society"}, {"id": "greater-london-permanent", "name": "Greater London Permanent Building Society"}, {"id": "gresham-circle", "name": "Gresham Circle Building Society"}, {"id": "hanley-economic", "name": "Hanley Economic Building Society"}, {"id": "harpenden-district", "name": "Harpenden & District Building Society"}, {"id": "harpenden", "name": "Harpenden Building Society"}, {"id": "heaton-norris-reddish-permanent", "name": "Heaton Norris & Reddish Permanent Benefit Building Society"}, {"id": "high-wycombe-south-bucks", "name": "High Wycombe & South Bucks Permanent Benefit Building Society"}, {"id": "hinckley-rugby", "name": "Hinckley & Rugby Building Society"}, {"id": "hinckley", "name": "Hinckley Building Society"}, {"id": "hinckley-permanent", "name": "Hinckley Permanent Building Society"}, {"id": "ipswich-permanent", "name": "Ipswich Permanent Building Society"}, {"id": "keswick-benefit", "name": "Keswick Benefit Building Society"}, {"id": "kidderminster-mutual-benefit", "name": "Kidderminster Mutual Benefit Building Society"}, {"id": "landore", "name": "Landore Building Society"}, {"id": "leeds-holbeck", "name": "Leeds & Holbeck Building Society"}, {"id": "leeds", "name": "Leeds Building Society"}, {"id": "leek-moorlands", "name": "Leek & Moorlands Building Society"}, {"id": "leek-westbourne", "name": "Leek & Westbourne Building Society"}, {"id": "leek-westbourne-eastern-counties", "name": "Leek, Westbourne & Eastern Counties Building Society"}, {"id": "lion", "name": "Lion Building Society"}, {"id": "lloyds-permanent", "name": "Lloyds Permanent Building Society"}, {"id": "longdendale-permanent-benefit", "name": "Longdendale Permanent Benefit Building Society"}, {"id": "longton-mutual-permanent", "name": "Longton Mutual Permanent Benefit Building Society"}, {"id": "ludgate", "name": "Ludgate Building Society"}, {"id": "mercantile-1875", "name": "Mercantile Building Society (1875-1966)"}, {"id": "mercantile", "name": "Mercantile Building Society (1970-2006)"}, {"id": "mornington", "name": "Mornington Building Society"}, {"id": "mornington-permanent", "name": "Mornington Permanent Building Society"}, {"id": "nalgo", "name": "NALGO Building Society"}, {"id": "national-counties", "name": "National Counties Building Society"}, {"id": "national-emblem-permanent", "name": "National Emblem Permanent Building Society"}, {"id": "national-independent-permanent-benefit", "name": "National Independent Permanent Benefit Building Society"}, {"id": "national-post-office", "name": "National Post Office Building Society"}, {"id": "new-gresham", "name": "New Gresham Building Society"}, {"id": "new-homes", "name": "New Homes Building Society"}, {"id": "newcastle-district", "name": "Newcastle & District Building Society"}, {"id": "newcastle-under-lyme-benefit", "name": "Newcastle-under-Lyme Benefit Building Society"}, {"id": "north-devon-benefit", "name": "North Devon Benefit Building Society"}, {"id": "north-herts", "name": "North Herts Building Society"}, {"id": "north-herts-permanent-mutual-benefit", "name": "North Herts Permanent Mutual Benefit Building Society"}, {"id": "north-shields", "name": "North Shields Building Society"}, {"id": "north-shields-mercantile", "name": "North Shields Mercantile Building Society"}, {"id": "north-shields-permanent", "name": "North Shields Permanent Building Society"}, {"id": "north-staffordshire-permanent-economic-benefit", "name": "North Staffordshire Permanent Economic Benefit Building Society"}, {"id": "northern-district", "name": "Northern District Building Society"}, {"id": "novocastrian-permanent", "name": "Novocastrian Permanent Building Society"}, {"id": "oldbury-britannia", "name": "Oldbury Britannia Building Society"}, {"id": "orient-permanent", "name": "Orient Permanent Building Society"}, {"id": "over-darwen", "name": "Over Darwen Building Society"}, {"id": "over-darwen-permanent-benefit", "name": "Over Darwen Permanent Benefit Building Society"}, {"id": "paramount", "name": "Paramount Building Society"}, {"id": "pembrokeshire-permanent-benefit", "name": "Pembrokeshire Permanent Benefit Building Society"}, {"id": "penistone-thurlstone-permanent-benefit", "name": "Penistone & Thurlstone Permanent Benefit Building Society"}, {"id": "penistone", "name": "Penistone Building Society"}, {"id": "pontypool-permanent", "name": "Pontypool Permanent Building Society"}, {"id": "poole", "name": "Poole Building Society"}, {"id": "post-office-permanent", "name": "Post Office Permanent Building Society"}, {"id": "premier-permanent", "name": "Premier Permanent Building Society"}, {"id": "provident-permanent", "name": "Provident Permanent Building Society"}, {"id": "queen-anne-permanent", "name": "Queen Anne Permanent Benefit Building Society"}, {"id": "radcliffe", "name": "Radcliffe Building Society"}, {"id": "railway-permanent", "name": "Railway Permanent Benefit Building Society"}, {"id": "reading-high-wycombe", "name": "Reading & High Wycombe Building Society"}, {"id": "reading", "name": "Reading Building Society"}, {"id": "royal-mutual-benefit", "name": "Royal Mutual Benefit Building Society"}, {"id": "rugby-provident", "name": "Rugby Provident Building Society"}, {"id": "rugby-provident-permanent-benefit", "name": "Rugby Provident Permanent Benefit Building Society"}, {"id": "shepton-mallet-permanent-benefit", "name": "Shepton Mallet Permanent Benefit Building Society"}, {"id": "silsden-district-permanent", "name": "Silsden & District Permanent Building Society"}, {"id": "silsden", "name": "Silsden Building Society"}, {"id": "somersetshire", "name": "Somersetshire Building Society"}, {"id": "somersetshire-permanent-benefit", "name": "Somersetshire Permanent Benefit Building Society"}, {"id": "south-west-wales", "name": "South West Wales Building Society"}, {"id": "south-east-essex-permanent", "name": "South-East Essex Permanent Building Society"}, {"id": "southampton", "name": "Southampton Building Society"}, {"id": "southdown-permanent", "name": "Southdown Permanent Building Society"}, {"id": "st-helens-rainford", "name": "St Helens & Rainford Building Society"}, {"id": "st-marylebone-suburban", "name": "St Marylebone & Suburban Building Society"}, {"id": "staffordshire-potteries-economic", "name": "Staffordshire Potteries Economic Benefit Building Society"}, {"id": "star-mutual-permanent-benefit", "name": "Star Mutual Permanent Benefit Building Society"}, {"id": "stockport-east-cheshire", "name": "Stockport & East Cheshire Building Society"}, {"id": "stockport-atlas", "name": "Stockport Atlas Building Society"}, {"id": "stockport-victoria-reddish", "name": "Stockport Victoria & Reddish Building Society"}, {"id": "stockport-victoria-permanent", "name": "Stockport Victoria Permanent Building Society"}, {"id": "stoke-on-trent-permanent", "name": "Stoke-on-Trent\u00a0Permanent Building Society"}, {"id": "stone-new-freehold-benefit", "name": "Stone New Freehold Benefit Building Society"}, {"id": "stourbridge-lye-district-permanent", "name": "Stourbridge, Lye & District Permanent Building Society"}, {"id": "stroud-swindon", "name": "Stroud & Swindon Building Society"}, {"id": "stroud", "name": "Stroud Building Society"}, {"id": "stroud-provident-benefit", "name": "Stroud Provident Benefit Building Society"}, {"id": "summit", "name": "Summit Building Society"}, {"id": "swansea-imperial-permanent", "name": "Swansea Imperial Permanent Building Society"}, {"id": "swansea-rock-permanent", "name": "Swansea Rock Permanent Building Society"}, {"id": "swindon-permanent", "name": "Swindon Permanent Building Society"}, {"id": "third-bristol-benefit", "name": "Third Bristol Benefit Building Society"}, {"id": "third-west-essex-mutual", "name": "Third West Essex Mutual Building Society"}, {"id": "thrift", "name": "Thrift Building Society"}, {"id": "town-county-permanent-benefit", "name": "Town & County Permanent Benefit Building Society"}, {"id": "town-county-poole", "name": "Town & County of Poole Building Society"}, {"id": "tunstall", "name": "Tunstall Building Society"}, {"id": "vectis", "name": "Vectis Building Society"}, {"id": "victoria-bristol", "name": "Victoria (of Bristol) Building Society"}, {"id": "wearside", "name": "Wearside Building Society"}, {"id": "wellington-somerset-district", "name": "Wellington (Somerset) & District Building Society"}, {"id": "wellington-et-al", "name": "Wellington, Wiveliscombe, Milverton & West of England Permanent Benefit Building Society"}, {"id": "welsh-economic", "name": "Welsh Economic Building Society"}, {"id": "west-essex-permanent", "name": "West Essex Permanent Building Society"}, {"id": "west-london", "name": "West London Building Society"}, {"id": "west-london-permanent", "name": "West London Permanent Building Society"}, {"id": "west-london-permanent-mutual-benefit", "name": "West London Permanent Mutual Benefit Building Society"}, {"id": "westbourne-park", "name": "Westbourne Park Building Society"}, {"id": "westbourne-park-permanent", "name": "Westbourne Park Permanent Building Society"}, {"id": "westbury-district-permanent", "name": "Westbury & District Permanent Building Society"}, {"id": "wilchester-permanent", "name": "Wilchester Permanent Building Society"}, {"id": "workington-west-cumberland", "name": "Workington & West Cumberland Building Society"}, {"id": "workington-west-cumberland-permanent", "name": "Workington & West Cumberland Permanent Building Society"}];
@@ -132,12 +149,16 @@ searchInput.addEventListener('keydown', function(e) {
 document.addEventListener('click', function(e) {
   if (!e.target.closest('.search-wrap')) searchResults.classList.remove('open');
 });
+document.getElementById('hamburger').addEventListener('click', function() {
+  document.getElementById('mobile-nav').classList.toggle('open');
+});
+function showWipModal(e){e.preventDefault();document.getElementById('wip-modal').style.display='flex';}
 </script>
 <div id="wip-modal" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(40,35,30,0.5);align-items:center;justify-content:center;padding:20px">
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;max-width:380px;width:100%;padding:28px;position:relative;box-shadow:0 8px 32px rgba(0,0,0,0.15)">
-    <p style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;margin-bottom:10px;color:var(--text)">Coming soon</p>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;max-width:380px;width:100%;padding:28px;box-shadow:0 8px 32px rgba(0,0,0,0.15)">
+    <p style="font-family:&#39;Playfair Display&#39;,serif;font-size:1.1rem;font-weight:700;margin-bottom:10px;color:var(--text)">Coming soon</p>
     <p style="font-size:0.88rem;line-height:1.75;color:var(--muted);margin-bottom:20px">This group is still being researched and written up. Check back soon — or <a href="progress.html" style="color:#5570b0;text-decoration:none">see the progress page</a> for an overview of what has been completed so far.</p>
-    <button onclick="document.getElementById('wip-modal').style.display='none'" style="padding:7px 18px;border:1px solid var(--border);border-radius:16px;background:var(--surface2);color:var(--text);font-family:inherit;font-size:0.82rem;cursor:pointer">Close</button>
+    <button onclick="document.getElementById(&#39;wip-modal&#39;).style.display=&#39;none&#39;" style="padding:7px 18px;border:1px solid var(--border);border-radius:16px;background:var(--surface2);color:var(--text);font-family:inherit;font-size:0.82rem;cursor:pointer">Close</button>
   </div>
 </div>
 <script>
