@@ -41,7 +41,11 @@ header{background:var(--surface);border-bottom:1px solid var(--border);padding:0
 .hero-logo{width:88px;height:88px;margin:0 auto 14px;display:block}
 .hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;line-height:1.15;margin-bottom:8px;color:var(--text)}
 .hero-subtitle{font-size:0.82rem;text-transform:uppercase;letter-spacing:0.14em;color:var(--muted);margin-bottom:16px;font-weight:600}
-.hero p{font-size:0.92rem;color:var(--muted);line-height:1.8;max-width:420px;margin:0 auto 24px}
+.hero p{font-size:0.92rem;color:var(--muted);line-height:1.8;max-width:420px;margin:0 auto 0}
+.hero-stats{display:flex;gap:0;margin:18px auto 24px;border:1px solid var(--border);border-radius:20px;background:var(--surface);overflow:hidden;width:fit-content}
+.hero-stat{padding:7px 20px;font-size:0.75rem;color:var(--muted);letter-spacing:0.04em;border-right:1px solid var(--border);display:flex;align-items:center;gap:7px}
+.hero-stat:last-child{border-right:none}
+.hero-stat-num{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--text);letter-spacing:0}
 .section{max-width:1100px;margin:0 auto;padding:0 48px 64px}
 .section-heading{font-family:'Playfair Display',serif;font-size:1rem;font-weight:400;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:24px;padding-bottom:10px;border-bottom:1px solid var(--border)}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:16px}
@@ -88,7 +92,12 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
     <img src="building-society-history-logo.svg" alt="Building Society History logo" class="hero-logo">
     <h1>Building Society History</h1>
     <div class="hero-subtitle">A British Mutual Finance Project</div>
-    <p>An independent archive tracing the history and mergers of Britain's building societies.</p>
+    <p>Tracing every merger, renaming, and dissolution across two centuries of British building societies — one institution at a time.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="hero-stat-num">24</span> active</div>
+      <div class="hero-stat"><span class="hero-stat-num">235</span> total</div>
+      <div class="hero-stat"><span class="hero-stat-num">200+</span> years of history</div>
+    </div>
     <div class="search-wrap" style="max-width:420px;margin:0 auto">
       <span class="search-icon">🔍</span>
       <input type="search" class="search-input" id="search" placeholder="Search all societies…" autocomplete="off">
