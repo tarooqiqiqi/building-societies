@@ -12,9 +12,24 @@
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#f0ece4;--surface:#e8e3da;--surface2:#ddd8ce;--border:#c8c0b0;--text:#2a2520;--muted:#7a7060;--accent:#5570b0}
 body{background:var(--bg);color:var(--text);font-family:'Source Sans 3',sans-serif;min-height:100vh}
-header{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 20px;position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between}
-header a{color:var(--muted);text-decoration:none;font-size:0.85rem}
-header a:hover{color:var(--text)}
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 20px;height:52px;position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.site-title{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--text);font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;white-space:nowrap}
+.header-logo{height:26px;width:26px;flex-shrink:0}
+.nav-pills{display:flex;gap:6px}
+.nav-pill{padding:5px 12px;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--text);font-family:inherit;font-size:0.75rem;text-decoration:none;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.08);transition:background 0.15s}
+.nav-pill:hover{background:var(--surface2)}
+.hamburger{display:none;flex-direction:column;gap:4px;cursor:pointer;padding:4px;border:none;background:none;flex-shrink:0}
+.hamburger span{display:block;width:18px;height:2px;background:var(--text);border-radius:2px;transition:all 0.2s}
+.mobile-nav{display:none;position:absolute;top:52px;right:0;left:0;background:var(--surface);border-bottom:1px solid var(--border);padding:10px 20px;flex-direction:column;gap:6px;z-index:99}
+.mobile-nav.open{display:flex}
+.mobile-nav a{padding:7px 0;color:var(--text);text-decoration:none;font-size:0.85rem;border-bottom:1px solid var(--border)}
+.mobile-nav a:last-child{border-bottom:none}
+@media(max-width:600px){
+  .nav-pills{display:none}
+  .hamburger{display:flex}
+  .container{padding:0 20px 60px}
+  .conn-row:hover{margin:0 -20px;padding:8px 20px}
+}
 .hero{background:var(--surface);border-bottom:1px solid var(--border);padding:28px 20px 24px}
 .hero-inner{max-width:960px;margin:0 auto}
 .primary-logo{max-height:70px;max-width:200px;object-fit:contain;margin-bottom:16px;display:block}
@@ -61,8 +76,25 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
 </head>
 <body>
 <header>
-  <a href="../index.html">← Home</a>
-  <a href="../list.html">Society index →</a>
+  <a href="../index.html" class="site-title">
+    <img src="../building-society-history-logo.svg" alt="" class="header-logo">
+    Building Society History
+  </a>
+  <nav class="nav-pills">
+    <a href="../map.html" class="nav-pill">Map</a>
+    <a href="../list.html" class="nav-pill">Index</a>
+    <a href="../progress.html" class="nav-pill">Progress</a>
+    <a href="../about.html" class="nav-pill">About</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="../map.html">Map</a>
+    <a href="../list.html">Index</a>
+    <a href="../progress.html">Progress</a>
+    <a href="../about.html">About</a>
+  </div>
 </header>
 
 <div class="hero"><div class="hero-inner">
@@ -144,7 +176,17 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
 </div>
 
 <footer>
-  <p>© Tariq Albastaki 2026. Building Society History is an independent archival project documenting the history and evolution of British building societies and mutual financial institutions. Research draws upon public sources including the Building Societies Association, the FCA Mutuals Public Register, the British Newspaper Archive, local historical records, and individual society publications. Logos are used for identification and historical reference purposes only and remain the property of their respective owners. This project is maintained using GitHub Pages and a custom static site architecture.</p>
+  <p>© Tariq Albastaki 2026. Building Society History is an independent archival project documenting the history and evolution of British building societies and mutual financial institutions. Research draws upon public sources including the Building Societies Association, the FCA Mutuals Public Register, the British Newspaper Archive, local historical records, and individual society publications. Logos are used for identification and historical reference purposes only and remain the property of their respective owners.</p>
 </footer>
+<script>
+document.getElementById('hamburger').addEventListener('click', function() {
+  document.getElementById('mobile-nav').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('header')) {
+    document.getElementById('mobile-nav').classList.remove('open');
+  }
+});
+</script>
 </body>
 </html>
