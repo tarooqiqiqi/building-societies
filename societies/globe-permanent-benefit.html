@@ -4,9 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Globe Permanent Benefit Building Society – Building Society History</title>
+<meta name="description" content="Globe Permanent Benefit Building Society was a British building society (1868–1946). Now part of Globe Building Society. Later renamed. Archival…">
+<link rel="canonical" href="https://buildingsocietyhistory.co.uk/societies/globe-permanent-benefit.html">
 <link rel="icon" type="image/svg+xml" href="/building-society-history-logo-no-frame.svg">
 <link rel="icon" type="image/png" href="/building-society-history-logo-no-frame.png">
 <script defer src="https://cloud.umami.is/script.js" data-website-id="2d17cdbd-3fb5-4b8c-8d61-4bcbf6144876"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Globe Permanent Benefit Building Society",
+  "foundingDate": "1868",
+  
+  "url": "https://buildingsocietyhistory.co.uk/societies/globe-permanent-benefit.html",
+  "description": "Globe Permanent Benefit Building Society was a British building society (1868–1946). Now part of Globe Building Society. Later renamed. Archival…"
+}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -48,7 +61,9 @@ h1{font-family:'Playfair Display',serif;font-size:clamp(1.3rem,4vw,1.8rem);font-
 .container{max-width:960px;margin:0 auto;padding:0 40px 60px}
 .section{margin-top:28px;padding-top:20px;border-top:1px solid var(--border)}
 .section h2{font-family:'Playfair Display',serif;font-size:1rem;font-weight:400;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px}
-.lineage-wrap{overflow-x:auto;padding:2px 0;display:flex;justify-content:center}
+.lineage-wrap{overflow-x:auto;padding:2px 0;display:flex;justify-content:center;position:relative}
+.lineage-wrap::after{content:'';position:absolute;right:0;top:0;bottom:0;width:40px;background:linear-gradient(to right,transparent,var(--bg));pointer-events:none;opacity:0;transition:opacity 0.2s}
+.lineage-wrap.can-scroll::after{opacity:1}
 .lineage-caption{font-size:0.73rem;color:var(--muted);margin-top:8px;font-style:italic}
 .body-text{line-height:1.95;color:#4a4540;font-size:0.92rem;margin-bottom:1.1rem}
 .body-text:last-child{margin-bottom:0}
@@ -68,6 +83,12 @@ h1{font-family:'Playfair Display',serif;font-size:clamp(1.3rem,4vw,1.8rem);font-
 .sources-list a{color:#5570b0;text-decoration:none}
 .sources-list a:hover{text-decoration:underline}
 .last-updated{font-size:0.7rem;color:var(--muted);margin-top:14px;font-style:italic}
+.prev-next{display:flex;justify-content:space-between;gap:12px;margin-top:32px;padding-top:20px;border-top:1px solid var(--border)}
+.prev-next-link{display:flex;flex-direction:column;gap:3px;text-decoration:none;padding:10px 14px;border:1px solid var(--border);border-radius:6px;background:var(--surface);max-width:45%;transition:background 0.15s}
+.prev-next-link:hover{background:var(--surface2)}
+.prev-next-link.next{text-align:right;margin-left:auto}
+.prev-next-dir{font-size:0.65rem;text-transform:uppercase;letter-spacing:0.09em;color:var(--muted)}
+.prev-next-name{font-size:0.82rem;color:var(--text);line-height:1.35}
 .advert-figure{margin:1.2rem 0;display:inline-block;max-width:100%}
 .advert-img{max-width:100%;height:auto;display:block;border:1px solid var(--border);border-radius:4px}
 .advert-img--placeholder{display:flex;align-items:center;justify-content:center;width:200px;height:80px;border:1px dashed var(--border);border-radius:4px;background:var(--surface2)}
@@ -179,6 +200,23 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
   </section>
   
 
+  
+  <nav class="prev-next">
+    
+    <a href="globe.html" class="prev-next-link prev">
+      <span class="prev-next-dir">← Previous</span>
+      <span class="prev-next-name">Globe Building Society</span>
+    </a>
+    
+    
+    <a href="glossop-perpetual.html" class="prev-next-link next">
+      <span class="prev-next-dir">Next →</span>
+      <span class="prev-next-name">Glossop Perpetual Building Society</span>
+    </a>
+    
+  </nav>
+  
+
 </div>
 
 <footer>
@@ -193,6 +231,28 @@ document.addEventListener('click', function(e) {
     document.getElementById('mobile-nav').classList.remove('open');
   }
 });
+// Lineage scroll hint
+(function() {
+  var wrap = document.querySelector('.lineage-wrap');
+  if (!wrap) return;
+  function check() {
+    if (wrap.scrollWidth > wrap.clientWidth + 4) {
+      wrap.classList.add('can-scroll');
+    } else {
+      wrap.classList.remove('can-scroll');
+    }
+  }
+  check();
+  wrap.addEventListener('scroll', function() {
+    // Hide gradient once user has scrolled to the end
+    if (wrap.scrollLeft + wrap.clientWidth >= wrap.scrollWidth - 8) {
+      wrap.classList.remove('can-scroll');
+    } else {
+      wrap.classList.add('can-scroll');
+    }
+  });
+  window.addEventListener('resize', check);
+})();
 </script>
 </body>
 </html>
