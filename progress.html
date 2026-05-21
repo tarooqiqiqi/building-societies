@@ -12,9 +12,19 @@
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#f0ece4;--surface:#e8e3da;--surface2:#ddd8ce;--border:#c8c0b0;--text:#2a2520;--muted:#7a7060;--accent:#5570b0}
 body{background:var(--bg);color:var(--text);font-family:'Source Sans 3',sans-serif;min-height:100vh}
-header{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 20px;position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:12px}
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 20px;height:52px;position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .site-title{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--text);font-family:'Playfair Display',serif;font-size:1rem;font-weight:700}
-.header-logo{height:32px;width:32px;flex-shrink:0}
+.header-logo{height:28px;width:28px;flex-shrink:0}
+.nav-pills{display:flex;gap:6px}
+.nav-pill{padding:5px 12px;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--text);font-family:inherit;font-size:0.75rem;text-decoration:none;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.08);transition:background 0.15s}
+.nav-pill:hover{background:var(--surface2)}
+.hamburger{display:none;flex-direction:column;gap:4px;cursor:pointer;padding:4px;border:none;background:none;flex-shrink:0}
+.hamburger span{display:block;width:18px;height:2px;background:var(--text);border-radius:2px}
+.mobile-nav{display:none;position:absolute;top:52px;right:0;left:0;background:var(--surface);border-bottom:1px solid var(--border);padding:10px 20px;flex-direction:column;gap:6px;z-index:99}
+.mobile-nav.open{display:flex}
+.mobile-nav a{padding:7px 0;color:var(--text);text-decoration:none;font-size:0.85rem;border-bottom:1px solid var(--border)}
+.mobile-nav a:last-child{border-bottom:none}
+@media(max-width:600px){.nav-pills{display:none}.hamburger{display:flex}.container{padding:20px 16px 60px}}
 .page-hero{background:var(--surface);border-bottom:1px solid var(--border);padding:28px 20px 24px}
 .page-hero-inner{max-width:960px;margin:0 auto}
 .page-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.4rem,4vw,1.9rem);font-weight:700;margin-bottom:8px}
@@ -38,11 +48,19 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
     <img src="building-society-history-logo.svg" alt="" class="header-logo">
     Building Society History
   </a>
-  <nav style="display:flex;gap:6px">
-    <a href="map.html" style="padding:6px 14px;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--text);font-family:inherit;font-size:0.78rem;text-decoration:none;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.08)">Map</a>
-    <a href="list.html" style="padding:6px 14px;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--text);font-family:inherit;font-size:0.78rem;text-decoration:none;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.08)">Index</a>
-    <a href="about.html" style="padding:6px 14px;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--text);font-family:inherit;font-size:0.78rem;text-decoration:none;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.08)">About</a>
+  <nav class="nav-pills">
+    <a href="map.html" class="nav-pill">Map</a>
+    <a href="list.html" class="nav-pill">Index</a>
+    <a href="about.html" class="nav-pill">About</a>
   </nav>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="map.html">Map</a>
+    <a href="list.html">Index</a>
+    <a href="about.html">About</a>
+  </div>
 </header>
 <div class="page-hero"><div class="page-hero-inner">
   <h1>Project Progress</h1>
@@ -69,6 +87,10 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:20px
 <footer>
   <p>© Tariq Albastaki 2026. Building Society History is an independent archival project documenting the history and evolution of British building societies and mutual financial institutions. Research draws upon public sources including the Building Societies Association, the FCA Mutuals Public Register, the British Newspaper Archive, local historical records, and individual society publications. Logos are used for identification and historical reference purposes only and remain the property of their respective owners.</p>
 </footer>
+<script>
+document.getElementById('hamburger').addEventListener('click',function(){document.getElementById('mobile-nav').classList.toggle('open');});
+document.addEventListener('click',function(e){if(!e.target.closest('header'))document.getElementById('mobile-nav').classList.remove('open');});
+</script>
 <div id="wip-modal" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(40,35,30,0.5);align-items:center;justify-content:center;padding:20px">
   <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;max-width:380px;width:100%;padding:28px;box-shadow:0 8px 32px rgba(0,0,0,0.15)">
     <p style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;margin-bottom:10px;color:var(--text)">Work in progress</p>
