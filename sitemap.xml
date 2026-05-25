@@ -2,1441 +2,3715 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://buildingsocietyhistory.co.uk/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/list.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/map.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/progress.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/about.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/accrington-district-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/accrington-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/accrington-savings.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/accrington-victoria.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/accrington-victoria-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/acme.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/advance.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/aid-to-thrift.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/albany.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/albion-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/alfreton.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/alfreton-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/alliance-perpetual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/alliance-perpetual-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/alston-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/always-ready.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/amalgamated-general.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/amersham-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/anchor.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/anglia-1966.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/anglia-1980.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/anglia-hastings-thanet.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/armstrong-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ascot-district-838.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ashbourne-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/ashford-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ashton-stamford.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ashton-under-lyne-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ashton-under-lyne-stamford.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/aylesbury-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/banff-town-county-property-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/barnstaple.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/barnstaple-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bath-county.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bath-county-conservative-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bath-investment.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bath-liberal.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bede-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bedlingtonshire-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/berkhamstead-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/berks-bucks-permanent-mutual-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/berkshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bermondsey.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/beverley.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/beverley-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bideford.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bideford-north-devon.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/birmingham-ebenezer.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bishop-auckland.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bishop-auckland-rock.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/blaby-neigbourhood.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/blackheath.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/blackheath-district-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/blackheath-kidbrooke-charlton.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/blyth-morpeth-district-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bognor-mutual.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/borough-marylebone.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/borough-watford-district-mutual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/borough-wigan.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/borough-wigan-district-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bournemouth-christchurch.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bournemouth-hants-dorset.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bournemouth-working-mens.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/brandling-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/brentwood.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/brighton-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/brighton-hove-preston.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/brighton-shoreham.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/brighton-southern-counties.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/brighton-southern-counties-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bristol-economic.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bristol-west.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bristol-west-england-south-wales.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/bristol-west-plc.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/britannia.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/britannia-1946.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/british-co-operative.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/british-workman-general-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/brockley-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/bromley.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/buckinghamshire.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/caledonian.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/calne-district-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/cambridge.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/cambridgeshire-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/castle.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/chalfont-district-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/chelmsford-essex.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/cheshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/cheshire-1969.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/cheshire-northwich.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/cheshunt.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/cheshunt-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/chester-north-wales.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/chester-north-wales-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/chesterfield.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/chorley-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/church-england.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/church-england-temperance.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/circle-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/citizens-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/citizens-regency.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/city-cardiff-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/city-charter.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/city-charter-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/city-county-durham-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/city-durham.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/city-metropolitan.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/city-peterborough-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/city-terminus.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/clapham-perseverance.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/clapton-general-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/clay-cross.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/clay-cross-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/clayton-square-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/cleveland-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/clydach-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/clydesdale.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/co-operative-bank.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/co-operative-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/cockermouth-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/coleraine.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/colne.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/congleton-equitable-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/consett-reliance.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/cornwall.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/corporation.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/corporation-eligible.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/corporation-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/country.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/county.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/county-southampton-provident-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/court-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-economic.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-mutual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-mutual-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-permanent-economic.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-provident-1872.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-provident-1962.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-provident-1970.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-provident-mutual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/coventry-provident-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/crewe-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/crewkerne-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/crook-district-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/crook-equitable.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/crown.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/croydon-royal-arch.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/cumberland.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/cumberland-co-operative-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/darlington.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/darlington-equitable.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/deal-walmer.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/denton.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/derbyshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/dorchester.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/dorchester-county-dorset-economic-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/driffield.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/driffield-east-riding-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/dudley.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/dudley-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/dumfries-galloway-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/dunedin.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/dunedin-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/dunelm.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/dunfermline.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/durham-yorkshire.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/earl-shilton.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/earl-shilton-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/east-durham-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/east-greenwich-mutual-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/east-ham-district-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/east-liverpool-incorporated.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/east-surrey.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/eastern-counties.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/eastern-counties-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/ecology.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/economical-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/edinburgh.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/edinburgh-mutual.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/edinburgh-mutual-dunedin.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/edinburgh-paisley.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/effra-mutual.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/eligible.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/eligible-united.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/elsecar-heyland-wentworth-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/elswick.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/elswick-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/empire-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/esher.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/exeter-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/failsworth-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/falkirk.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/family.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/fareham-district-mutual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/farmers-general-investment.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/farnham-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/fenton-mutual-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/finsbury.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/five-towns.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/foundation-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/fourth-bristol-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/fourth-edinburgh-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/fourth-fifeshire-property-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/fourth-post-office.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/fourth-post-office-mutual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/fourth-provident-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/frome-selwood.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/furness.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/furness-south-cumberland.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/gateshead-institute-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/gateshead-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/general.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/general-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/general-thrift-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/glantawe-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/globe.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/globe-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/glossop-perpetual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/golders-green-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/goldhawk.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/goldhawk-mutual-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/great-grimsby-north-lincolnshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/great-torrington.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/greater-london-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/greenwich.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/greenwich-1949.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/greenwich-industrial.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/gresham-circle.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/grimsby.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/grimsby-cleethorpes.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/grimsby-north-lincolnshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hadrian.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/haltwhistle-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/hanley-economic.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/harpenden.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/harpenden-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hartlepool-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hartlepools-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hastings-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hastings-thanet.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hatton-le-hole-easington-lane.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hazel-grove-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/heanor-derbyshire-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/heaton-norris-reddish-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hebburn-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/herald.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hexham-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/high-wycombe-south-bucks.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/hinckley.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hinckley-leicestershire.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/hinckley-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/hinckley-rugby.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/hinckley-south-leicestershire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/holloway-1957.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/holloway-1964.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/holloway-city-terminus.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/home-counties.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/houghton-le-spring-north-durham.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/house-mill.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ilkeston-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/improved-edinburgh.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/improved-edinburgh-property-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/industrial.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/industrial-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/industrial-provident.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/institute.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/ipswich-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/isle-thanet.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/jarrow.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kensington-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kensington-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/keswick-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/kettering-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kew-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/kidderminster-mutual-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kidderminster-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kidderminster-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kilburn.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kilmarnock.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kilmarnock-building-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kings-cross-pentonville.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kingscliffe.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kingston.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kirkaldy.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kirkaldy-property-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kirriemuir.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/kirriemuir-freehold.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/lambeth.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/lancashire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/lancastrian.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/landore.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/lee-lewisham-blackheath.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leeds.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leeds-holbeck.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leek-moorlands.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leek-united.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leek-united-midlands.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leek-united-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leek-westbourne.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/leek-westbourne-eastern-counties.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/leicestershire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/leigh-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/linlithgowshire-savings-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/lion.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/liverpool-charter.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/liverpool-provincial.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/liverpool-railway-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/lloyds-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/lombardian-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/london-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/london-goldhawk.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/london-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/london-midland.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/london-progressive.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/london-south-england.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/longdendale-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/longton-mutual-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/loughborough.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/loughborough-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/loughborough-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/ludgate.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/maidenhead.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/maidenhead-berkshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/manchester-unity-odd-fellows.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/mancunian.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/mansfield.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/mansfield-district-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/market-harborough.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/market-harborough-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/marlborough.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/marsden.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/marsden-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/melton-mowbray.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/melton-mowbray-mutual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/mercantile.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/mercantile-1875.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/merthyr-dowlais-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/metropolitan.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/middlesex.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/middleton.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/monmouthshire.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/monmouthshire-south-wales.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/monmouthshire-south-wales-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/mornington.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/mornington-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/musselburgh.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/nalgo.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/national-counties.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/national-emblem-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/national-independent-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/national-post-office.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/national-safety-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/nationwide.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/nationwide-1970.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/nationwide-anglia.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/nelson-premier.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/new-gresham.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/new-homes.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/new-swindon-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/newcastle-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/newcastle-gateshead.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/newcastle-gateshead-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/newcastle-under-lyme-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/nineteenth-century.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-devon-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/north-durham-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/north-durham-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/north-england-1986.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/north-england-1994.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-herts.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-herts-permanent-mutual-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/north-paddington-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-shields.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-shields-mercantile.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-shields-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-shields-standard-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/north-staffordshire-permanent-economic-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/north-wilts-equitable.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/north-wilts-ridgeway.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northampton-midlands.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northampton-town-county.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northampton-town-county-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northamptonshire-foresters.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northern-counties.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/northern-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northern-rock.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northern-rock-plc.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northumbria-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/northwich.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/novocastrian-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/oak-leaf.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/old-swan.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/oldbury-britannia.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ore-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/orient-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/orpington.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/over-darwen.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/over-darwen-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/paddington.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/paisley.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/paramount.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/peckham-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/peckham-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/peebles.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/peebleshire-savings-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/pembrokeshire-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/penistone.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/penistone-thurlstone-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/pentonville-general.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/peoples.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/peoples-co-operative-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/perpetual-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/piccadilly-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/pioneer.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/pontypool-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/poole.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/portman.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/portman-1989.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/portman-wessex.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/post-office-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/postal-service-general.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/premier-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/preston-royal-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/progressive-middlesex.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/provident-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/prudential-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/queen-anne-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/radcliffe.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/railway-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ramsbury.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/reading.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/reading-high-wycombe.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/redhill-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/regency-1963.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/regency-1985.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/regency-west-england.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/richmond-mutual.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/ridgeway.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/rock.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/rock-llanelli-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/rock-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/royal-arcade.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/royal-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/royal-mutual-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/rugby-provident.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/rugby-provident-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/saddleworth-united.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/saddleworth-united-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/sandbach.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/savings-bank.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/scottish-amicable.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/seaham-harbour.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/sedgley-district-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/shepton-mallet-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/shields-commercial.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/shields-premier.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/shields-tyne-dock.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/shields-washington.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/silsden.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/silsden-district-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/slough-eton-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/somercotes.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/somersetshire.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/somersetshire-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-durham.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/south-east-essex-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-england-1953.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-england-1967.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-anchor.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-commercial.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-crown-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-equitable-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-nelson.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-premier.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-royal.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-shields-sun-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-staffordshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-staffordshire-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-west-middlesex.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-west-middlesex-mutual-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/south-west-wales.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/south-western.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/southampton.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/southampton-south-hants.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/southdown-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/st-annes-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/st-helens-rainford.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/st-margaret.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/st-martins-le-grand.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/st-martins-le-grand-mutual.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/st-marylebone-suburban.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/st-pancras.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stafford-county.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stafford-county-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stafford-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stafford-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/staffordshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/staffordshire-potteries-economic.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/standard.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stanhope-wear-valley.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/star.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/star-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/star-mutual-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stenhousemuir.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stirlingshire.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stockport.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stockport-atlas.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stockport-county-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stockport-east-cheshire.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/stockport-premier.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stockport-victoria-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stockport-victoria-reddish.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stoke-on-trent-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stone-new-freehold-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stourbridge-lye-district-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stroud.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stroud-provident-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/stroud-swindon.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/summers.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/summers-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/summit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/sunderland.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/sunderland-shields.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/sunderland-working-mens.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/surrey.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/sussex-mutual.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/sussex-mutual-permanent-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/swanage-isle-purbeck.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/swansea-imperial-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/swansea-rock-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/swindon.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/swindon-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/temple-bar.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/thames-estuary.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/third-bristol-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/third-reform-ballot.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/third-west-essex-mutual.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/thornley-district-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/thrift.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/town-county-permanent-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/town-county-poole.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/tunstall.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/twickenham.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/twickenham-teddington-district-mutual.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/tydesley.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/tydesley-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/tyne.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/tyne-commercial.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/tyne-commercial-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/tynemouth-eligible-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/tynemouth-victoria.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/tynemouth-victoria-jubilee.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/tyneside.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/uckfield-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/united-kingdom.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/united-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/united-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/vectis.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/victoria-bristol.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/virgin-money.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/walker-byker-industrial-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/walker-wallsend-willingdon-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wallingford-district-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wallsend.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/walton-kirkdale-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wandsworth-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/watford-west-herts.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/wearside.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wellingborough-town-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/wellington-et-al.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wellington-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wellington-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/wellington-somerset-district.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/welsh-economic.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wessex.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wessex-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/west-cumbria.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-derby.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-derby-everton-perpetual-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-england.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/west-essex-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-fife-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-hartlepool.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-hove.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-hove-district-permanent.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/west-london.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-london-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/west-london-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/west-london-permanent-mutual-benefit.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/west-midlands.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/westbourne-park.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/westbourne-park-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/westbury-district-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/western-counties-1934.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/western-counties-1968.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/western-counties-barnstaple.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/western-counties-equitable-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/western-equitable-permanent-mutual-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/westminster.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/whitehall.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wigan.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/wilchester-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wilts-western-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/winchester-city-district.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/windsor-eton-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/winsford-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wishaw-investment.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/woburn-sands.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/wolverton-bucks.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://buildingsocietyhistory.co.uk/societies/workington-permanent-benefit.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/workington-west-cumberland.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://buildingsocietyhistory.co.uk/societies/workington-west-cumberland-permanent.html</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
